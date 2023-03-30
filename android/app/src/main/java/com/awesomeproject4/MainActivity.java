@@ -32,4 +32,11 @@ public class MainActivity extends ReactActivity {
         DefaultNewArchitectureEntryPoint.getConcurrentReactEnabled() // concurrentRootEnabled
         );
   }
+
+  @Override
+  protected List<ReactPackage> getPackages() {
+    return Arrays.asList(
+      new VectorIconsPackage()
+    );
+  }
 }

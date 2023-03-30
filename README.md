@@ -18,6 +18,16 @@ npm install @react-navigation/native
 npm install react-native-screens react-native-safe-area-context
 npm install @react-navigation/native-stack
 
+# Reqct Native Elements 설치
+npm install @rneui/themed @rneui/base
+npm install --save react-native-vector-icons
+
+# React DevTools 설치
+npm install -g react-devtools
+react-devtools # 실행명령어
+adb shell input keyevent 82
+
+
 # 기타 참조
 typescript type정의
 > https://velog.io/@eunnbi/React-Native-React-Navigation-Typescript
